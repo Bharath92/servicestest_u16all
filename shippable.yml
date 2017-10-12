@@ -39,7 +39,7 @@ build:
     
   pre_ci_boot:
     image_name: bharath92/u16all
-    image_tag: master
+    image_tag: latest
     pull: true
     
     
