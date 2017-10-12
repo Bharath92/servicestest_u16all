@@ -35,6 +35,7 @@ build:
     - echo SHIPPABLE_RETHINKDB_BINARY=$SHIPPABLE_RETHINKDB_BINARY
     ###- echo SHIPPABLE_RIAK_BINARY=$SHIPPABLE_RIAK_BINARY
     - service --status-all
+    - curl -X PUT localhost:5984/mytestdb
     
   pre_ci_boot:
     image_name: drydock/u16all
