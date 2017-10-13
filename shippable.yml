@@ -38,8 +38,8 @@ build:
     - curl -X PUT localhost:5984/mytestdb
     
   pre_ci_boot:
-    image_name: bharath92/u16all
-    image_tag: latest
+    image_name: drydock/u16all
+    image_tag: master
     pull: true
     
     
