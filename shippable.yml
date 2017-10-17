@@ -38,7 +38,7 @@ build:
     - curl -X PUT localhost:5984/mytestdb
     
   pre_ci_boot:
-    image_name: bharath92/u14all
+    image_name: drydock/u14all
     image_tag: latest
     pull: true
     
